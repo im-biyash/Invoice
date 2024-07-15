@@ -7,19 +7,19 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-    <div class="h-screen  flex items-center justify-center">
-        <div class="container border-2 h-[90vh] w-[600px] mx-auto border-black">
-            <div class="heading p-1 flex items-start justify-between">
+    <div class="h-screen flex items-center justify-center">
+        <div class="container border-2 h-[90vh] w-[600px] mx-auto border-black relative">
+            <div class="heading p-1 flex justify-between">
                 <h1 class="text-3xl border-2 inline-block p-2 mt-2 ml-1">INVOICE</h1>
                 <div class="logo text-sm flex flex-col items-end">
                     <img src="./image.png" class="h-5 w-5" alt="logo">
-                    <p class="text-xs font-bold">Peak Voyage Pvt Ltd</p>
-                    <p class="text-xs font-bold text-size-sm">Reg.No:312800/79/080</p>
+                    <p class="font-bold" style="font-size: 0.7rem;">Peak Voyage Pvt Ltd</p>
+                    <p class="font-bold" style="font-size: 0.7rem;">Reg.No:312800/79/080</p>
                 </div>
             </div>
-            <div class="table mx-auto ">
-                <table class=" mt-2 p-1">
-                    <tbody class="">
+            <div class="table mx-auto flex">
+                <table class="mt-2 p-1 w-full">
+                    <tbody>
                         <tr class="text-sm p-1">
                             <td class="border-2 border-black p-1 font-semibold">
                                 <table class="w-full">
@@ -54,74 +54,68 @@
                                 </table>
                             </td>
                         </tr>
-                        
-                            
-                        </tr>
                         <tr>
                             <td class="border-2 border-black p-1 text-sm font-semibold">
                                 <p>Description</p>
                             </td>
                             <td class="border-2 border-black p-1 text-sm font-semibold" colspan="2">
                                 <p>Earning</p>
-                                </p>
                             </td>
                             <td class="border-2 border-black text-sm p-1 font-semibold">
                                 <p>Deduction</p>
                             </td>
                         </tr>
                         <tr>
-                            <td class="border-2 border-black p-1 text-sm">
-                                <p>Basic Salary</p>
-                                <p>Tax</p>
-                                <p>Bonus</p>
+                            <td class="border-2 border-black p-1">
+                                <p style="font-size: 0.8rem;">Basic Salary</p>
+                                <p style="font-size: 0.8rem;">Tax</p>
+                                <p style="font-size: 0.8rem;">Bonus</p>
                             </td>
                             <td class="border-2 border-black p-1 text-sm" colspan="2">
-                                <p>17000</p>
-                                <p>0</p>
-                                <p>00.00</p>
-                                
+                                <p style="font-size: 0.8rem;">17000</p>
+                                <p style="font-size: 0.8rem;">0</p>
+                                <p style="font-size: 0.8rem;">00.00</p>
                             </td>
-                            
-                            
                             <td class="border-2 border-black p-1 text-sm">
-                                <p>2,000</p>
+                                <p style="font-size: 0.8rem;">2,000</p>
                             </td>
                         </tr>
                         <tr>
                             <td class="border-2 border-black p-1 text-sm">
-                                <p>Total</p>
+                                <p style="font-size: 0.8rem;">Total</p>
                             </td>
-                            <td class="border-2 border-black p-1 text-sm " colspan="2">
-                                <p>17,000</p>
+                            <td class="border-2 border-black p-1 text-sm" colspan="2">
+                                <p style="font-size: 0.8rem;">17,000</p>
                             </td>
-                            <td class="border-2 border-black text-sm p-1" >
-                           <p class="">2,000</p>
+                            <td class="border-2 border-black text-sm p-1">
+                                <p style="font-size: 0.8rem;">2,000</p>
                             </td>
                         </tr>
                         <tr>
-                            <td class="border-2 border-black p-1 text-sm ">
-                                <p>Bank Name: 
+                            <td class="border-2 border-black p-1 text-sm">
+                                <p style="font-size: 0.8rem;">Bank Name: 
                                     <span class="text-center">
-                                        <input type="text" class="text-center" style=" height: 1rem; width: 9rem;" class="border border-gray-300">
+                                        <input type="text" class="text-center" style="height: 1rem; width: 9rem;" class="border border-gray-300">
                                     </span>
                                 </p>
-                                <p>Account:
+                                <p style="font-size: 0.8rem;">Account:
                                     <span class="text-center ml-7">
-                                        <input type="text" class="text-center ml-5" style=" height: 1rem; width: 9rem;" class="border border-gray-300">
+                                        <input type="text" class="text-center ml-5" style="height: 1rem; width: 9rem;" class="border border-gray-300">
                                     </span>
                                 </p>
                             </td>
                             <td class="border-2 border-black text-sm text-center mb-2" colspan="3">
-                                <p class="bg-gray-700 p-0.5 w-full text-white">Net Pay: 15,000</p>
+                                <p class="bg-stone-700 p-0.5 w-full text-white">Net Pay: 15,000</p>
                                 <span class="text-center">
-                                    <p>Fifteen thousand only-</p>
+                                    <p style="font-size: 0.8rem;">Fifteen thousand only-</p>
                                 </span>
                             </td>
-                            
                         </tr>
                     </tbody>
                 </table>
-               
+            </div>
+            <div class="p-1 text-right ">
+                <span class="text-xs" style="font-size: 0.6rem;">**Note: All amounts above are in NRS</span>
             </div>
         </div>
     </div>
